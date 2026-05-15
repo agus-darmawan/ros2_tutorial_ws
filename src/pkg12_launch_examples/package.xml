@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pkg12_launch_examples</name>
+  <version>0.1.0</version>
+  <description>ROS2 Tutorial - Launch file examples</description>
+  <maintainer email="darmawandeveloper@gmail.com">agus-darmawan</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>pkg01_topic_cpp</exec_depend>
+  <exec_depend>pkg02_topic_py</exec_depend>
+  <exec_depend>pkg08_parameters_cpp</exec_depend>
+  <exec_depend>pkg10_tf2_cpp</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

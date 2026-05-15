@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pkg02_topic_py</name>
+  <version>0.1.0</version>
+  <description>ROS2 Tutorial - Topics (Publisher/Subscriber) in Python</description>
+  <maintainer email="darmawandeveloper@gmail.com">agus-darmawan</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

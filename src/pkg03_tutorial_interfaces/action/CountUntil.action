@@ -1,0 +1,12 @@
+# Action: count from 0 up to target_number, with a delay between numbers.
+# Three sections separated by ---:
+#   1) GOAL     : what the client wants
+#   2) RESULT   : final outcome sent once
+#   3) FEEDBACK : progress, sent many times during execution
+
+int32 target_number          # count to this number
+float32 period               # seconds between counts
+---
+int32 reached_number         # the last number we counted to
+---
+int32 current_number         # the number we just counted

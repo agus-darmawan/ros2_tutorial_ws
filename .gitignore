@@ -1,0 +1,155 @@
+# ============================================================
+# ROS2 / colcon build artifacts
+# ============================================================
+build/
+install/
+log/
+.colcon/
+
+# colcon defaults / metadata
+COLCON_IGNORE
+AMENT_IGNORE
+
+# ============================================================
+# C++ build artifacts
+# ============================================================
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.lo
+*.la
+*.slo
+*.gch
+*.pch
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+Testing/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build-py/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# ROS2 generated interfaces (just in case)
+# ============================================================
+*_msgs/msg/_*.py
+*_srvs/srv/_*.py
+rosidl_generator_*/
+
+# ============================================================
+# rosbag2 recordings
+# ============================================================
+*.db3
+*.db3-shm
+*.db3-wal
+*.mcap
+rosbag2_*/
+
+# ============================================================
+# IDE & editor
+# ============================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, PyCharm)
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-*/
+
+# Vim / Emacs
+*.swp
+*.swo
+*.swn
+*~
+.\#*
+\#*\#
+.netrwhist
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.cproject
+.project
+.settings/
+.metadata/
+
+# Qt Creator
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# ============================================================
+# OS junk
+# ============================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================
+# Logs & misc
+# ============================================================
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+core
+core.*
+
+# Documentation builds
+docs/_build/
+docs/build/
+site/

@@ -1,0 +1,8 @@
+# Request the robot to set an RGB LED color.
+
+uint8 red          # 0-255
+uint8 green        # 0-255
+uint8 blue         # 0-255
+---
+bool success
+string message

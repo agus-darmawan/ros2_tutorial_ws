@@ -1,0 +1,8 @@
+# A simple service definition.
+# Above the --- separator: REQUEST fields.
+# Below the --- separator: RESPONSE fields.
+
+int64 a
+int64 b
+---
+int64 sum

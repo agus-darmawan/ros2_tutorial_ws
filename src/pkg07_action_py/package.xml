@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pkg07_action_py</name>
+  <version>0.1.0</version>
+  <description>ROS2 Tutorial - Actions in Python</description>
+  <maintainer email="darmawandeveloper@gmail.com">agus-darmawan</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <depend>rclpy</depend>
+  <depend>pkg03_tutorial_interfaces</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

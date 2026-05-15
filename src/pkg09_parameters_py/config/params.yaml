@@ -1,0 +1,9 @@
+params_node_py:
+  ros__parameters:
+    robot_name: "explorer_py"
+    max_speed: 30
+    loop_rate_hz: 2.0
+    waypoints:
+      - "start"
+      - "middle"
+      - "end"

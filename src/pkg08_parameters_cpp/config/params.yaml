@@ -1,0 +1,13 @@
+# Parameter file loaded with: ros2 run ... --ros-args --params-file <this>
+# The top-level key MUST match the node name. The "ros__parameters" block holds
+# the actual values.
+
+params_node:
+  ros__parameters:
+    robot_name: "explorer_01"
+    max_speed: 25
+    loop_rate_hz: 5.0
+    waypoints:
+      - "kitchen"
+      - "living_room"
+      - "bedroom"
